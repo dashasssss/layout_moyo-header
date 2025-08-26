@@ -2,12 +2,6 @@ html {
   --color-blue: #00acdc;
 }
 
-ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
 body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -38,6 +32,8 @@ body {
 
 .nav_list {
   display: flex;
+  margin: 0;
+  padding-left: 0;
   list-style: none;
 }
 
