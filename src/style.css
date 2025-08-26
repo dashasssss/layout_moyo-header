@@ -11,11 +11,19 @@ body {
 }
 
 .header {
-  padding: 0 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.header__container {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .logo_link {
   display: block;
